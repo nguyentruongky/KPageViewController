@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26571F6A1C4553E500EC598E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571F691C4553E500EC598E /* AppDelegate.swift */; };
+		26571F6C1C4553E500EC598E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571F6B1C4553E500EC598E /* ViewController.swift */; };
+		26571F6F1C4553E500EC598E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26571F6D1C4553E500EC598E /* Main.storyboard */; };
+		26571F711C4553E500EC598E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26571F701C4553E500EC598E /* Assets.xcassets */; };
+		26571F741C4553E500EC598E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26571F721C4553E500EC598E /* LaunchScreen.storyboard */; };
+		26571F7D1C45540F00EC598E /* KPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571F7C1C45540F00EC598E /* KPageViewController.swift */; };
+		26571F7F1C45546100EC598E /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26571F7E1C45546100EC598E /* PageItemController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26571F661C4553E500EC598E /* KPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26571F691C4553E500EC598E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26571F6B1C4553E500EC598E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26571F6E1C4553E500EC598E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26571F701C4553E500EC598E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26571F731C4553E500EC598E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26571F751C4553E500EC598E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26571F7C1C45540F00EC598E /* KPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPageViewController.swift; sourceTree = SOURCE_ROOT; };
+		26571F7E1C45546100EC598E /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26571F631C4553E500EC598E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26571F5D1C4553E400EC598E = {
+			isa = PBXGroup;
+			children = (
+				26571F681C4553E500EC598E /* KPageViewController */,
+				26571F7B1C4553EF00EC598E /* Supporting Files */,
+				26571F671C4553E500EC598E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26571F671C4553E500EC598E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26571F661C4553E500EC598E /* KPageViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26571F681C4553E500EC598E /* KPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26571F7C1C45540F00EC598E /* KPageViewController.swift */,
+				26571F7E1C45546100EC598E /* PageItemController.swift */,
+				26571F6B1C4553E500EC598E /* ViewController.swift */,
+				26571F6D1C4553E500EC598E /* Main.storyboard */,
+			);
+			path = KPageViewController;
+			sourceTree = "<group>";
+		};
+		26571F7B1C4553EF00EC598E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26571F691C4553E500EC598E /* AppDelegate.swift */,
+				26571F701C4553E500EC598E /* Assets.xcassets */,
+				26571F721C4553E500EC598E /* LaunchScreen.storyboard */,
+				26571F751C4553E500EC598E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = KPageViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26571F651C4553E500EC598E /* KPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26571F781C4553E500EC598E /* Build configuration list for PBXNativeTarget "KPageViewController" */;
+			buildPhases = (
+				26571F621C4553E500EC598E /* Sources */,
+				26571F631C4553E500EC598E /* Frameworks */,
+				26571F641C4553E500EC598E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPageViewController;
+			productName = KPageViewController;
+			productReference = 26571F661C4553E500EC598E /* KPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26571F5E1C4553E400EC598E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ky Nguyen";
+				TargetAttributes = {
+					26571F651C4553E500EC598E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 26571F611C4553E400EC598E /* Build configuration list for PBXProject "KPageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26571F5D1C4553E400EC598E;
+			productRefGroup = 26571F671C4553E500EC598E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26571F651C4553E500EC598E /* KPageViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26571F641C4553E500EC598E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26571F741C4553E500EC598E /* LaunchScreen.storyboard in Resources */,
+				26571F711C4553E500EC598E /* Assets.xcassets in Resources */,
+				26571F6F1C4553E500EC598E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26571F621C4553E500EC598E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26571F6C1C4553E500EC598E /* ViewController.swift in Sources */,
+				26571F6A1C4553E500EC598E /* AppDelegate.swift in Sources */,
+				26571F7D1C45540F00EC598E /* KPageViewController.swift in Sources */,
+				26571F7F1C45546100EC598E /* PageItemController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26571F6D1C4553E500EC598E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26571F6E1C4553E500EC598E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26571F721C4553E500EC598E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26571F731C4553E500EC598E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26571F761C4553E500EC598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26571F771C4553E500EC598E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26571F791C4553E500EC598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phuot.KPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26571F7A1C4553E500EC598E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phuot.KPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26571F611C4553E400EC598E /* Build configuration list for PBXProject "KPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26571F761C4553E500EC598E /* Debug */,
+				26571F771C4553E500EC598E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26571F781C4553E500EC598E /* Build configuration list for PBXNativeTarget "KPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26571F791C4553E500EC598E /* Debug */,
+				26571F7A1C4553E500EC598E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26571F5E1C4553E400EC598E /* Project object */;
+}
